@@ -4,6 +4,7 @@ def count_strings(array)
   array.count do | element |
     if element.is_a? Integer
       str_total += 1
+    end
   end
 end
 
