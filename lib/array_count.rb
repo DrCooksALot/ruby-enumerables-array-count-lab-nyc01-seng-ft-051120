@@ -18,4 +18,5 @@ def count_empty_strings(array)
       emptiness+=1
     end
   end
+  emptiness
 end
